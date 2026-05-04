@@ -1,0 +1,14 @@
+[
+  {
+    "raw": {
+      "name": "Invalid price"
+    },
+    "reason": "missing price"
+  },
+  {
+    "raw": {
+      "name": "No area"
+    },
+    "reason": "missing area"
+  }
+]
