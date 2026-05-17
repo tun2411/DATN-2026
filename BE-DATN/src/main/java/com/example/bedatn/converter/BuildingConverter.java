@@ -59,7 +59,7 @@ public class BuildingConverter {
                 District districtEnum = District.valueOf(buildingEntity.getDistrict());
                 addressBuilder.append(districtEnum.getName());
             } catch (IllegalArgumentException e) {
-                addressBuilder.append(" ");
+                addressBuilder.append(buildingEntity.getDistrict());
             }
         }
         buildingResponse.setAddress(addressBuilder.toString());

@@ -35,20 +35,20 @@ public class BuildingSampleDataLoader implements ApplicationRunner {
         }
         long t = System.currentTimeMillis();
         buildingRepository.saveAll(List.of(
-                sample(t + 1, "Masteri Centre Point", "QUAN_2",
-                        "Nguyễn Văn Linh", "Bình An",
+                sample(t + 1, "Masteri Centre Point", "CAU_GIAY",
+                        "Dương Đình Nghệ", "Yên Hòa",
                         "NGUYEN_CAN", 78L, 4_200_000_000L,
-                        "Thiết kế hiện đại, kết nối thuận tiện KĐT Thủ Thiêm."),
-                sample(t + 2, "Vinhomes Riverside Villa", "QUAN_3",
-                        "Đường số 1", "Phường 3",
+                        "Thiết kế hiện đại, kết nối thuận tiện trung tâm Cầu Giấy."),
+                sample(t + 2, "Vinhomes Riverside Villa", "TAY_HO",
+                        "Đường Âu Cơ", "Quảng An",
                         "NGUYEN_CAN", 200L, 15_500_000_000L,
-                        "Biệt thự sinh thái ven sông, tiện ích đầy đủ."),
-                sample(t + 3, "Sun Grand City Penthouse", "QUAN_1",
-                        "Phó Đức Chính", "Phường Bến Nghé",
+                        "Biệt thự sinh thái ven hồ, tiện ích đầy đủ."),
+                sample(t + 3, "Sun Grand City Penthouse", "HOAN_KIEM",
+                        "Hàng Bài", "Tràng Tiền",
                         "NOI_THAT", 300L, 32_000_000_000L,
                         "Penthouse view trung tâm, không gian rộng rãi."),
-                sample(t + 4, "Eco Green Townhouse", "QUAN_5",
-                        "Nguyễn Văn Linh", "Phường 5",
+                sample(t + 4, "Eco Green Townhouse", "BA_DINH",
+                        "Kim Mã", "Ngọc Hà",
                         "TANG_TRET", 110L, 8_500_000_000L,
                         "Nhà phố thương mại, mặt tiền kinh doanh tốt.")
         ));

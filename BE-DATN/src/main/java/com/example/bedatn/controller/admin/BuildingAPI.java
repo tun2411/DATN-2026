@@ -32,7 +32,7 @@ public class BuildingAPI {
 
     /**
      * Danh sách BĐS (phân trang + lọc query giống admin search).
-     * Ví dụ: GET /api/buildings?page=0&size=12&district=QUAN_1
+     * Ví dụ: GET /api/buildings?page=0&size=12&district=HOAN_KIEM
      */
     @GetMapping
     public ResponseEntity<ApiResponse<BuildingListPageResponse>> listBuildings(
